@@ -23,6 +23,8 @@ void loop(){
   else{
     TOTAL = TOTAL + LS;
     Serial.println(TOTAL);
+    Serial.println("Vazão: ");
+    Serial.println(LS*60);
   }
   delay(1000);
 }

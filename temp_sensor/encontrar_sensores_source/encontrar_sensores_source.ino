@@ -11,7 +11,7 @@
 #include <OneWire.h> //biblioteca protocolo One Wire
 
 
-OneWire  ds(10);  //declaração de objeto (sensor ds no pino digital 10)
+OneWire  ds(2);  //declaração de objeto (sensor ds no pino digital 10)
 
 
 // Configurações Iniciais
