@@ -46,7 +46,7 @@ void setup() {
   pinMode(8,OUTPUT);  
 }
 
-float tempC[3];
+float tempC[3]; //temperaturas -> {lavagem,mostura 1 (interna), mostura 2 (superior)}
 int i;
 void loop() {
   // put your main code here, to run repeatedly:
