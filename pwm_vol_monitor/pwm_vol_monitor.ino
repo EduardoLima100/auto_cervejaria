@@ -22,9 +22,12 @@ void loop(){
   if(isinf(FREQUENCY)){}
   else{
     TOTAL = TOTAL + LS;
-    Serial.println(TOTAL);
-    Serial.println("Vazão: ");
-    Serial.println(LS*60);
+    Serial.print("\nVolume: ");
+    Serial.print(TOTAL);
+    Serial.print(" Litros");
+    Serial.print("\nVazão:");
+    Serial.print(LS*60);
+    Serial.print(" L/min");
   }
   delay(1000);
 }

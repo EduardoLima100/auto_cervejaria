@@ -2,13 +2,12 @@ import numpy as np
 from scipy.linalg import solve
 import matplotlib.pyplot as plt
 
-custo_insumos = 217.88
-rendimento = 49.46
+custo_insumos = 352.86 - 8.8 - 14
+rendimento = 45.26
 custo_L = round(custo_insumos / rendimento,2)
 print("Custo/Litro (sem tampinha): ", custo_L)
 custo_tampa = 0.14
-fator_lucro = 4
-
+fator_lucro = 3.3
 
 X = [355,500,600,740,1000]
 Y = [7,9,10,12.5,16]
@@ -16,7 +15,7 @@ lucro = []
 
 print("\nCusto de cada garrafa:")
 for i in range(len(X)):
-    #Y[i] = ((custo_L/1000)*X[i]+custo_tampa)*fator_lucro
+    Y[i] = ((custo_L/1000)*X[i]+custo_tampa)*fator_lucro
     lucro.append(Y[i]-(custo_L/1000)*X[i]+custo_tampa)
     print(X[i], round((custo_L/1000)*X[i]+custo_tampa,2))
       
@@ -99,16 +98,17 @@ def arredondar(x,val=0.5):
     a = 0
     while a<x:
         a = a + val
-    return x
+    return a
 
 
 #plot_func(X,Y,linear_regression(X,Y))
 f = second_degree_regression(X,Y)
-plot_func(X,Y,f)
+#plot_func(X,Y,f)
 print(Y)
 print("\nPreços:")
 for i in range(len(X)):
     print("{}ml - R${}".format(X[i], arredondar(Y[i])))
 
+#input()
 
 
