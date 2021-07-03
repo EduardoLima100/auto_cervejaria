@@ -3,7 +3,7 @@
 //#include <math.h>
 
 #define ONE_WIRE_BUS 2
-#define T_CARB 21     //Temperatura de carbonatação
+#define T_CARB 18     //Temperatura de carbonatação
 #define MARG 1      //Margem de temperatura
 #define SERIAL 0    //Uso do monitor serial
 
