@@ -3,7 +3,10 @@
 //#include <math.h>
 
 #define ONE_WIRE_BUS 2
-#define T_MOST  76    //Temperatura de mostura
+#define T_MOST  76    //Temperatura de mostura  //inicial = 67 
+                                                //pós colocação dos grãos = 65
+                                                //fim da mostura = 76
+                      
 #define T_LAV   76    //Temperatura de lavagem
 #define MARG    0.5   //Margem de temperatura
 
@@ -77,7 +80,7 @@ void loop() {
     }
   }
 
-  if (tempC[1] > T_MOST + MARG || tempC[2] > T_MOST + MARG * 2) {
+  if (tempC[1] > T_MOST + MARG || tempC[2] >= T_MOST + MARG * 2) {
     digitalWrite(pinRele[0], HIGH); //DESLIGAR
     //Serial.print("DES MOST");
   }
