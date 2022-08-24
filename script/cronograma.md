@@ -1,6 +1,4 @@
-﻿# Cronograma cerveja
-
-## Montar layout
+# Cronograma cerveja
 
 **Estação de limpeza:**
 - [ ] Mesa
@@ -45,24 +43,52 @@
 - [ ] Ligar panelas
 - [ ] Ligar bomba da mostura
 - [ ] Ligar controle de temperatura
-- [ ] Esperar água da mostura chegar à temperatura correta (67º)
+- [ ] Esperar água da mostura chegar à temperatura correta (67ºC)
+
+---
 
 **Mostura:**
 - [ ] Desligar a bomba d'água e a resistências
 - [ ] Colocar os grãos
 - [ ] Esperar os grãos incharem
 - [ ] Ligar a bomba d'água e a resistências
-- [ ] Marcar uma hora para mostura
+- [ ] Marcar 1:20h para mostura
 
-**Pós-mostura:**
-- [ ] Levantar temperatura de mostura para 76º (rampa de temperatura)
-- [ ] Aguardar temperatura chegar a 76º e mantê-la por 5 minutos
+**Lavar:**
+- [ ] Panela da **fervura**
+- [ ] Fermentador
+ 
+ **Ferver:**
+ - [ ] Água de enxágue do chiller e fermentador (4L) 
+ - [ ] Água para leveduras (700ml)
+ 
+ **Sanitização:**
+ - [ ] Preparar sanitizante
+ - [ ] Sanitizar fermentador
 
+**Mashout:**
+- [ ] Levantar temperatura de mostura para 76º C(rampa de temperatura)
+- [ ] Aguardar temperatura chegar a 76ºC e mantê-la por 5 minutos
 
+---
 
+**Lavagem:**
+- [ ] Fazer a lavagem
+- [ ] Medir volume pré-fervura
 
+---
 
+**Fervura:**
+- [ ] Esperar o mosto chegar à 100ºC
+- [ ] Adicionar lúpulo 1
+- [ ] Adicionar lúpulo 2
+- [ ] Adicionar lúpulo 3
+- [ ] Wirfloc
+- [ ] Desligar fogareiro e a resistência
+- [ ] Medir volume pós-fervura
+- [ ] Whirpool
 
+---
 
-
-
+**Resfriamento:**
+- [ ] 
