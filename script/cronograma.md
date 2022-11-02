@@ -36,7 +36,7 @@
 - [ ] Pá
 
 **Pós-dosagem:**
-- [ ] Corrigir PH da água
+- [ ] Corrigir PH da água (L: 5.3 M: 5.2)
 - [ ] Guardar lâmpada
 - [ ] Fechar a torneira da mangueira
 - [ ] Tirar a pressão do filtro (para não vazar quando tirar a mangueira)
